@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sort">
+      <UniqueIdentifier>{8b9ddc82-4429-40bd-a39a-8ae9287158fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="greatAlgorithm">
+      <UniqueIdentifier>{5f9772d8-5a7e-4ac4-9264-b74e8de31e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="toolsAlgorithm">
+      <UniqueIdentifier>{dd964b50-a6ec-4104-80bd-e199eab6c74b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\sort\SortBase.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sort\SortMerge.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\toolsAlgorithm\BigIntMutil.cpp">
+      <Filter>toolsAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\greatAlgorithm\ACAutomation.cpp">
+      <Filter>greatAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\greatAlgorithm\EggFloor.cpp">
+      <Filter>greatAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\greatAlgorithm\Palindrome.cpp">
+      <Filter>greatAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sort\SortBase.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sort\SortMerge.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="..\toolsAlgorithm\BigIntMutil.h">
+      <Filter>toolsAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\greatAlgorithm\ACAutomation.h">
+      <Filter>greatAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\greatAlgorithm\EggFloor.h">
+      <Filter>greatAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\greatAlgorithm\Palindrome.h">
+      <Filter>greatAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
