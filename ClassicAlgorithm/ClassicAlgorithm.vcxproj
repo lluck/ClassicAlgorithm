@@ -87,6 +87,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>sort;greatAlgorithm;toolsAlgorithm;.</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,22 +142,45 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Base.cpp" />
-    <ClCompile Include="..\greatAlgorithm\ACAutomation.cpp" />
-    <ClCompile Include="..\greatAlgorithm\EggFloor.cpp" />
-    <ClCompile Include="..\greatAlgorithm\Palindrome.cpp" />
-    <ClCompile Include="..\sort\SortBase.cpp" />
-    <ClCompile Include="..\sort\SortMerge.cpp" />
-    <ClCompile Include="..\toolsAlgorithm\BigIntMutil.cpp" />
+    <ClCompile Include="ArrayFullRange.cpp" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="ClassicAlgorithm.cpp" />
+    <ClCompile Include="greatAlgorithm\ACAutomation.cpp" />
+    <ClCompile Include="greatAlgorithm\EggFloor.cpp" />
+    <ClCompile Include="greatAlgorithm\Palindrome.cpp" />
+    <ClCompile Include="sort\BubbleSort.cpp" />
+    <ClCompile Include="sort\CocktailSort.cpp" />
+    <ClCompile Include="sort\CountingSort.cpp" />
+    <ClCompile Include="sort\HeapSort.cpp" />
+    <ClCompile Include="sort\InsertionSort.cpp" />
+    <ClCompile Include="sort\InsertionSortDichotomy.cpp" />
+    <ClCompile Include="sort\MergeSort.cpp" />
+    <ClCompile Include="sort\QuickSort.cpp" />
+    <ClCompile Include="sort\RadixSort.cpp" />
+    <ClCompile Include="sort\SelectionSort.cpp" />
+    <ClCompile Include="sort\ShellSort.cpp" />
+    <ClCompile Include="sort\SortBase.cpp" />
+    <ClCompile Include="toolsAlgorithm\BigIntMutil.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Base.h" />
-    <ClInclude Include="..\greatAlgorithm\ACAutomation.h" />
-    <ClInclude Include="..\greatAlgorithm\EggFloor.h" />
-    <ClInclude Include="..\greatAlgorithm\Palindrome.h" />
-    <ClInclude Include="..\sort\SortBase.h" />
-    <ClInclude Include="..\sort\SortMerge.h" />
-    <ClInclude Include="..\toolsAlgorithm\BigIntMutil.h" />
+    <ClInclude Include="ArrayFullRange.h" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="greatAlgorithm\ACAutomation.h" />
+    <ClInclude Include="greatAlgorithm\EggFloor.h" />
+    <ClInclude Include="greatAlgorithm\Palindrome.h" />
+    <ClInclude Include="sort\BubbleSort.h" />
+    <ClInclude Include="sort\CocktailSort.h" />
+    <ClInclude Include="sort\CountingSort.h" />
+    <ClInclude Include="sort\HeapSort.h" />
+    <ClInclude Include="sort\InsertionSort.h" />
+    <ClInclude Include="sort\InsertionSortDichotomy.h" />
+    <ClInclude Include="sort\MergeSort.h" />
+    <ClInclude Include="sort\QuickSort.h" />
+    <ClInclude Include="sort\RadixSort.h" />
+    <ClInclude Include="sort\SelectionSort.h" />
+    <ClInclude Include="sort\ShellSort.h" />
+    <ClInclude Include="sort\SortBase.h" />
+    <ClInclude Include="toolsAlgorithm\BigIntMutil.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

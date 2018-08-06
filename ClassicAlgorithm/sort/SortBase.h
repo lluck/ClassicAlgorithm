@@ -1,6 +1,10 @@
 #pragma once
 #include "Base.h"
 
+/*
+Ô­ÎÄµØÖ·:http://www.cnblogs.com/eniac12/p/5329396.html
+         http://www.cnblogs.com/eniac12/p/5332117.html
+*/
 
 class SortBase
 {

@@ -24,48 +24,117 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\sort\SortBase.cpp">
-      <Filter>sort</Filter>
-    </ClCompile>
-    <ClCompile Include="..\sort\SortMerge.cpp">
-      <Filter>sort</Filter>
-    </ClCompile>
-    <ClCompile Include="..\toolsAlgorithm\BigIntMutil.cpp">
+    <ClCompile Include="toolsAlgorithm\BigIntMutil.cpp">
       <Filter>toolsAlgorithm</Filter>
     </ClCompile>
-    <ClCompile Include="..\greatAlgorithm\ACAutomation.cpp">
+    <ClCompile Include="greatAlgorithm\ACAutomation.cpp">
       <Filter>greatAlgorithm</Filter>
     </ClCompile>
-    <ClCompile Include="..\greatAlgorithm\EggFloor.cpp">
+    <ClCompile Include="greatAlgorithm\EggFloor.cpp">
       <Filter>greatAlgorithm</Filter>
     </ClCompile>
-    <ClCompile Include="..\greatAlgorithm\Palindrome.cpp">
+    <ClCompile Include="greatAlgorithm\Palindrome.cpp">
       <Filter>greatAlgorithm</Filter>
     </ClCompile>
-    <ClCompile Include="..\Base.cpp">
+    <ClCompile Include="ClassicAlgorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\BubbleSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\CocktailSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\HeapSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\InsertionSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\InsertionSortDichotomy.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\MergeSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\QuickSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\SelectionSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\ShellSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\SortBase.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\CountingSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="sort\RadixSort.cpp">
+      <Filter>sort</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayFullRange.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\sort\SortBase.h">
-      <Filter>sort</Filter>
-    </ClInclude>
-    <ClInclude Include="..\sort\SortMerge.h">
-      <Filter>sort</Filter>
-    </ClInclude>
-    <ClInclude Include="..\toolsAlgorithm\BigIntMutil.h">
+    <ClInclude Include="toolsAlgorithm\BigIntMutil.h">
       <Filter>toolsAlgorithm</Filter>
     </ClInclude>
-    <ClInclude Include="..\greatAlgorithm\ACAutomation.h">
+    <ClInclude Include="greatAlgorithm\ACAutomation.h">
       <Filter>greatAlgorithm</Filter>
     </ClInclude>
-    <ClInclude Include="..\greatAlgorithm\EggFloor.h">
+    <ClInclude Include="greatAlgorithm\EggFloor.h">
       <Filter>greatAlgorithm</Filter>
     </ClInclude>
-    <ClInclude Include="..\greatAlgorithm\Palindrome.h">
+    <ClInclude Include="greatAlgorithm\Palindrome.h">
       <Filter>greatAlgorithm</Filter>
     </ClInclude>
-    <ClInclude Include="..\Base.h">
+    <ClInclude Include="Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\BubbleSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\CocktailSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\HeapSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\InsertionSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\InsertionSortDichotomy.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\MergeSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\QuickSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\SelectionSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\ShellSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\SortBase.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\CountingSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="sort\RadixSort.h">
+      <Filter>sort</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayFullRange.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
