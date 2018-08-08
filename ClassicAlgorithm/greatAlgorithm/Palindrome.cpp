@@ -221,11 +221,13 @@ int Palindrome::longestPalindrome_V4(const char* str)
 
 
 /*
+*   https://segmentfault.com/a/1190000003914228
 *   把一个回文串中最左或最右位置的字符与其对称轴的距离称为回文半径。
 *   Manacher定义了一个回文半径数组RL，用RL[i]表示以第i个字符为对称轴的回文串的回文半径
 *   MaxRight，表示当前访问到的所有回文子串，所能触及的最右一个字符的位置
 *   pos, 表示MaxRight对应的回文串的对称轴所在的位置
-*   step 1: 分i在MaxRight的左边、右边, 令RL[i]=min(RL[2*pos-i], MaxRight-i), 否则RL[i]=1, 从i的左右两边开始继续尝试扩展
+*   step 1: 分i在MaxRight的左边、右边, 在左边时再根据RL[j]的长短时分为2种情况
+            令RL[i]=min(RL[2*pos-i], MaxRight-i), 否则RL[i]=1, 从i的左右两边开始继续尝试扩展
 *   step 2: 以i为中心扩展回文串，直到左右两边字符不同，或者到达边界。
 *   step 3: 更新MaxRight和pos
 *   (4) 复杂度分析
@@ -256,10 +258,10 @@ int Palindrome::longestPalindrome_V5(const char* str)
             *   当i在MaxRight的左边, i相对于pos的对称点j上的回文半径RL[j]可能很短、也可能很长
             *   1) 较短时, j的回文长度包含在pos的回文范围内, RL[i] >= RL[j], 继续尝试以i为对称轴，继续往左右两边扩展，
             *      直到左右两边字符不同，或者到达边界
-            *      RL[i] = maxRight - i
+            *      RL[i] = RL[j] = RL[2 * pos - i], j = pos - (i - pos) = 2 * pos - i
             *   2) 较长时, j的回文长度超出了pos的回文范围, 这时只能确定不超过MaxRight的部分是回文的
             *      从这个长度开始，尝试以i为中心向左右两边扩展，直到左右两边字符不同，或者到达边界
-            *      RL[i] = RL[j] = RL[2 * pos - i], j = pos - (i - pos) = 2 * pos - i
+            *      RL[i] = maxRight - i
             */
             RL[i] = std::min(RL[2 * pos - i], maxRight - i);
         }
@@ -271,7 +273,6 @@ int Palindrome::longestPalindrome_V5(const char* str)
         while (i - RL[i] >= 0 && i + RL[i] < strLen && str[i - RL[i]] == str[i + RL[i]])
         {
             ++RL[i];
-
             ++count;
         }
 
