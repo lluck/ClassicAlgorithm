@@ -148,6 +148,8 @@
     <ClCompile Include="greatAlgorithm\ACAutomation.cpp" />
     <ClCompile Include="greatAlgorithm\EggFloor.cpp" />
     <ClCompile Include="greatAlgorithm\Palindrome.cpp" />
+    <ClCompile Include="List.cpp" />
+    <ClCompile Include="Search.cpp" />
     <ClCompile Include="sort\BubbleSort.cpp" />
     <ClCompile Include="sort\CocktailSort.cpp" />
     <ClCompile Include="sort\CountingSort.cpp" />
@@ -161,6 +163,7 @@
     <ClCompile Include="sort\ShellSort.cpp" />
     <ClCompile Include="sort\SortBase.cpp" />
     <ClCompile Include="toolsAlgorithm\BigIntMutil.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayFullRange.h" />
@@ -168,6 +171,8 @@
     <ClInclude Include="greatAlgorithm\ACAutomation.h" />
     <ClInclude Include="greatAlgorithm\EggFloor.h" />
     <ClInclude Include="greatAlgorithm\Palindrome.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Search.h" />
     <ClInclude Include="sort\BubbleSort.h" />
     <ClInclude Include="sort\CocktailSort.h" />
     <ClInclude Include="sort\CountingSort.h" />
@@ -181,6 +186,7 @@
     <ClInclude Include="sort\ShellSort.h" />
     <ClInclude Include="sort\SortBase.h" />
     <ClInclude Include="toolsAlgorithm\BigIntMutil.h" />
+    <ClInclude Include="Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

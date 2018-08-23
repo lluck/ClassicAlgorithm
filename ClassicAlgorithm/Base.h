@@ -35,6 +35,14 @@ void reverse(elemType arr[], uint size);
 
 
 
+#define log(format, ...) \
+do \
+{ \
+    fprintf(stdout, format, ##__VA_ARGS__); \
+} while (0);
+
+
+
 //---------------------------------------------------------------------------
 
 
